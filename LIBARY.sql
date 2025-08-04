@@ -43,6 +43,18 @@ SELECT * FROM BOOK_INFO;
 
 SELECT * FROM  B0RROWER_INFO;
 
+create table B0RROWER_check3(
+B0RROW_ID int,
+numof_dues int,
+due_status VARCHAR(200),
+constraint fk_bor3 FOREIGN KEY(B0RROW_ID)REFERENCES B0RROWER_INFO(B0RROW_ID)
+ );
+
+ INSERT INTO B0RROWER_check3 VALUES (11, 1, 'yes'),
+								 ( 13,1, 'yes'),
+								 ( 15,0, 'no');
+
+
 
 
 
