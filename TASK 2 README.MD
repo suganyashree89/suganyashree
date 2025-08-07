@@ -134,22 +134,5 @@ SELECT EMPID, SALARY, SALARY * 0.18 AS TAX FROM EMPSALARY;
 
 * Calculates 18% tax for each employee's salary.
 
----
 
-## ✅ Final Notes
 
-* This script sets up a basic HR database schema.
-* Includes table relationships via foreign keys.
-* Handles default values, data cleaning, and computed queries.
-
----
-
-## 📂 File Structure Suggestion
-
-```
-EMPDETAILS/
-├── README.md
-└── empdetails_script.sql
-```
-
-Let me know if you'd like this in downloadable `.md` or `.txt` format.
